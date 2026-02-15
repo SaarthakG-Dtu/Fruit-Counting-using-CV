@@ -1,4 +1,4 @@
-# UAS TASK # Fruit Detection and Counting System  
+# Fruit Detection and Counting System  
 <br>
 Accurate fruit counting across multiple views using YOLO detection and homography alignment. Image detection model for counting number of fruits using YOLO,Open-cv and numpy.
 This project uses a YOLO (You Only Look Once) model to detect fruits in front and back view images. It aligns both views using homography and counts unique fruits based on their position and color.
@@ -61,8 +61,8 @@ pip install opencv-python numpy ultralytics
 
 ## File Structure  
 ```
-📦UAS_DTU_Fruit_Detection
-├── 📂UAS_DTU_Round_2_Task_data  # Parent folder
+📦Fruit-Counting-using-CV
+├── 📂Fruit Dataset  # Parent folder
 │   └── 📂8                      # Example image pair
 │       ├── front.jpg           # Front view image
 │       └── back.jpg            # Back view image
